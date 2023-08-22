@@ -1,0 +1,124 @@
+
+*{
+   padding:0;
+   margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #407BFF;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    
+}
+
+ul li {
+    padding: 5px 10px;
+    margin: 0px 20px;
+    list-style: none;
+    background: azure;
+}
+ul li a{
+   text-decoration: none;
+   font-size: 20px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navButton{
+   font-size:30px;
+}
+
+
+
+/* header css  */
+
+.header_image img {
+    width: 70%;
+    padding: 20px;
+}
+
+.header_image {
+    width:  50%;
+    margin-top: 20px;
+}
+.header_content{
+   margin-top: 3rem;
+   width: 40%;
+   /* background-color: antiquewhite; */
+   padding: 50px;
+}
+.header_content h1{
+   font-size: 50px;
+   font-weight: 700;
+}
+
+.header_content p{
+   font-size: 18px;
+   margin-top: 20px;
+   
+}
+
+.header_btn{
+margin-top: 50px;
+
+}
+
+.header_btn a:hover{
+     background-color: #407BFF;
+border: 1px solid #000;
+   padding: 12px 12px;
+transition: .3s;
+
+
+}
+.header_btn a{
+   background-color: aliceblue;
+border: 1px solid #000;
+
+   padding: 10px 10px;
+   text-decoration: none;
+   font-size: 20px;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+     /* flex-wrap: wrap; */
+flex-direction: row;
+    width: 100%;
+    background-color: #407BFF;
+    /* padding: 0px 20px; */
+}
+
+
+
+
+
+
+/* about section  */
+
+.about_section{
+   display: flex;
+   justify-content:space-between;
+   flex-direction: row;
+   /* width: 100%; */
+}
+
+.about_img img{
+   width: 80%;
+
+}
+
+.container{
+   max-width: 80%;
+   margin:auto;
+}
